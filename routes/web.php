@@ -31,3 +31,6 @@ Route::prefix('admin')->middleware('auth')->group(function () {
         return "oke";
     });
 });
+Route::get('/',fucntion(){
+    return "oke";
+});
